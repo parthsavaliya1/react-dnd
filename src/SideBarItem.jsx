@@ -11,7 +11,6 @@ const SideBarItem = ({ data }) => {
 
     return (
         <div className="sideBarItem" ref={drag} style={{ opacity }}>
-            {console.log(data)}
             {data.component.id}
         </div>
     );
